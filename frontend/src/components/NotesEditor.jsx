@@ -7,8 +7,8 @@ import Preview from "./Preview";
 import "../styles/NotesEditor.css";
 import NotesList from "./NoteList";
 
-const API_BASE= import.meta.env.API_BASE;
-console.log("API_BASE:", API_BASE);
+const API_BASE = import.meta.env.VITE_API_BASE;
+
 
 const NotesEditor = () => {
   const [latex, setLatex] = useState("");
