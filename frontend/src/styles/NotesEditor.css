@@ -1,0 +1,42 @@
+.notes-editor-container {
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+.latex-textarea {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.save-button, .delete-button {
+  background: #007bff;
+  color: white;
+  padding: 6px 12px;
+  margin: 4px;
+  border: none;
+  cursor: pointer;
+}
+.delete-button {
+  background: #dc3545;
+}
+.notes-list {
+  list-style: none;
+  padding: 0;
+}
+.note-item {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f1f1;
+  padding: 6px;
+  margin: 4px 0;
+  border-radius: 4px;
+}
+.latex-preview {
+  border: 1px solid #ccc;
+  min-height: 120px;
+  padding: 12px;
+  margin-top: 15px;
+  background: #fafafa;
+  font-size: 20px;
+}
