@@ -3,15 +3,15 @@ import "../styles/Toolbar.css";
 
 const Toolbar = ({ onInsert }) => {
   const symbols = [
-    { label: "∑", code: "\\sum" },
-    { label: "∫", code: "\\int" },
-    { label: "√", code: "\\sqrt{}" },
-    { label: "π", code: "\\pi" },
-    { label: "lim", code: "\\lim_{x \\to 0}" },
-    { label: "Matrix", code: "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}" },
-    { label: "H₂O", code: "H_2O" },
-    { label: "CO₂", code: "CO_2" },
-    { label: "⇌", code: "\\rightleftharpoons" },
+    { label: "∑", code: "\\sum " },
+    { label: "∫", code: "\\int " },
+    { label: "√", code: "\\sqrt{} " },
+    { label: "π", code: "\\pi " },
+    { label: "lim", code: "\\lim_{x \\to 0} " },
+    { label: "Matrix", code: "\\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} " },
+    { label: "H₂O", code: " H_2O " },
+    { label: "CO₂", code: " CO_2 " },
+    { label: "⇌", code: "\\rightleftharpoons " },
     { label: "Space", code: "\\ " },
   ];
 
